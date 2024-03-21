@@ -1,0 +1,233 @@
+
+*{
+    box-sizing: border-box;
+}
+.contenaireHeader {
+    height: 96px;
+    background-color: #2C3E50;
+    color: #FFFFFFAB;
+
+}
+.LogoDuHeader {
+    transform: translateX(190px);
+    padding-top: 10px;
+    font-size: 24px;
+}
+.HeaderNav {
+    
+    width: 48px;
+    background-color: #FFFFFFAB;
+    transform: translateX(50px);
+    font-size: 14px;
+}
+.HeaderNavTwo {
+    width: 60px;
+    background-color: #FFFFFFAB;
+    transform: translate(130px, -16px);
+    font-size: 14px;
+}
+.HeaderNavTre {
+    width: 65px;
+    background-color: #FFFFFFAB;
+    transform: translate(225px, -32px);
+    font-size: 14px;
+}
+.HeaderNavFor {
+    width: 48px;
+    background-color: #FFFFFFAB;
+    transform: translate(320px, -48px);
+    font-size: 14px;
+}
+
+.contenaireDuMain {
+    height: 92px;
+    background-color: #DBDBDB;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+.PremierNavDeMain {
+    transform: translate(45px, -113px);
+    color: #000000AB;
+}
+.DeuxiemeNavDeMain {
+    color: #000000AB;
+    transform: translate(289px, -210px);
+}
+.ImgDuPremierNavDeMain {
+    transform: translate(10px, -15px);
+}
+.ImgDuDeuxiemeNavDeMain {
+    transform: translate(250px, -270px);
+}
+.contenaireDeArticle {
+    margin-left: 18px;
+    margin-top: -683px;
+    height: 1108px;
+    z-index: 4;
+}
+.ImgDuPremierPseudo {
+    margin-top: 18.7px;
+    margin-left: 9.83px;
+}
+.InfoDuPremierPseudo {
+    transform: translate(50px, -75px);
+}
+.MonPseudo {
+    font-size: 18px ;
+    color: #000000DE;
+}
+.ActifIlYa {
+    font-size: 12px ;
+    color: #000000DE;
+}
+.ImageDePuDuPremierPseudo{
+    margin-top: -70px;
+}
+.PduPremierPseudo {
+    width: 362.88px;
+    margin-left: 8.32px;
+    color: #00000099;
+}
+
+.RectangleDeArticle {
+    margin-top: 15px;
+    margin-left: 18px;
+    z-index: 3;
+}
+.ImgDeLike {
+    transform: translate(10px, -40px);
+}
+.ImgDePouces {
+    transform: translate(35px, -65px);
+}
+.ImgDeSymboleCommentaire {
+    transform: translate(280px, -95px);
+}
+.ImgDeCommentaire {
+    transform: translate(300px, -125px);
+}
+.RectangleDeArticle2 {margin-top: -100px;
+}
+.DeuxiemePseudo {
+    margin-top: -370px;
+}
+.PdudeuxiemePseudo1{
+    margin-top: -50px;
+    width: 362.88px;
+    margin-left: 8.32px;
+    color: #00000099;
+}
+.PdudeuxiemePseudo {
+    width: 362.88px;
+    margin-left: 8.32px;
+    color: #00000099;
+}
+.ContenaireDuAside {
+    width: 400px;
+    height: 405px;
+    background-color: #c6b6b6;
+    margin-left: 18px;
+}
+.Sugestion{
+    font-size: 15pxs;
+    color: #000000DE;
+}
+.PremierImgDuAside {
+    transform: translateY(20px)
+}
+.NomDeLami{
+    transform: translate(110px, -75px)
+}
+.NbrAmiEnCommun{
+    transform: translate(110px, -80px)
+}
+.AjouterEnAmi{
+    transform: translate(110px, -88px)
+}
+.IconeDajoutDami{
+    transform: translate(90px, -120px)
+}
+.DivDu2emAmi{
+    transform: translateY(-125px)
+}
+.DivDu3emAmi{
+    transform: translateY(-250px)
+}
+.DivDu4emAmi{
+    transform: translateY(-375px)
+}
+
+
+
+
+.contenaireHeader {
+    width: 1152px;
+    height: 64px;
+}
+.LogoDuHeader {
+    transform: translate(51px, 10px);
+}
+.CassDuNavHeader {
+    transform: translate(720px, -40px);
+}
+.contenaireDuMain {
+    transform: translate(37px, 0px);
+    height: 180px;
+    width: 180px;
+}
+.DeuxiemeNavDeMain {
+    transform: translate(45px, -113px);
+}
+.ImgDuDeuxiemeNavDeMain {
+    transform: translate(10px, -175px);
+}
+.contenaireDeArticle {
+    transform: translate(261px, -225px);
+}
+.ContenaireDuAside {
+    transform: translate(700px, -1315px);
+}
+.RectangleDeArticle {
+    transform: translate(261px, -195px);
+}
+@media screen and (min-width: 1252px) {
+    body {
+        overflow-x: hidden;
+        margin: 0px;
+        width: 100%;
+    }
+}   
+@media screen and (max-width: 414px) {
+    body {
+        overflow-x: hidden;
+        margin: 0px;
+        width: 100%;
+    }
+    .contenaireHeader {
+        width: 414px;
+        height: 96px;
+    }
+    .LogoDuHeader {
+        transform: translateX(190px);
+        padding-top: 10px;
+        font-size: 24px;
+    }
+    
+    .CassDuNavHeader {
+        transform: translate(-20px, -10px);
+    }
+    .contenaireDuMain {
+        transform: translate(0px, 0px);
+        height: 180px;
+        width: 350px;
+    }
+    .contenaireDeArticle {
+        transform: translate(-15px, -25px);
+    }
+    .RectangleDeArticle {
+        transform: translate(-15px, 0px);
+    }
+    .ContenaireDuAside {
+        transform: translate(-15px, -30px);
+    }
+}
